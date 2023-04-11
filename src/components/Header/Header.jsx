@@ -31,9 +31,9 @@ function Header () {
                     smooth={true}
                 >Home</Link>
                 </li>
-                <li onClick={() => setMenuOpened(false)}>Programs</li>
-                <li onClick={() => setMenuOpened(false)}>Why us</li>
-                <li onClick={() => setMenuOpened(false)}>Plans</li>
+                <li><Link onClick={() => setMenuOpened(false)} to="programs" span={true} smooth={true}>Programs</Link></li>
+                <li><Link onClick={() => setMenuOpened(false)} to="join-us"  span={true} smooth={true}>Why us</Link></li>
+                <li><Link onClick={() => setMenuOpened(false)} to="plans" span={true} smooth={true}>Plans</Link></li>
                 <li><Link
                     onClick={() => setMenuOpened(false)}
                     to="testimonials"

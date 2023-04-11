@@ -12,7 +12,7 @@ function Footer () {
             <hr/>
             <div className="footer">
                 <div className="social-links">
-                    <img src={Github} alt="" />
+                    <img src={Github}  alt="" />
                     <img src={Linkedin} alt="" />
                     <img src={Intagram} alt="" />
                 </div>
